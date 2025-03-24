@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-color: #3f3f3f;
+        width: 250px;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+
+
+      span {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      span,
+      p {
+        color: white;
+      }
+
+      .button {
+        border-radius: 10px;
+        /* width: 100px; */
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+      }
+
+      a {
+        color: white;
+        /* width: 100px; */
+        margin-top: 10px;
+        justify-content: center;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="img/cookies.png" alt="kukis" width="60" height="60" />
+      <span>x</span>
+      <p>We use cookies to improve your UX</p>
+      <a href="#" class="button">accept</a>
+      <a href="#" class="a">decline</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
